@@ -14,6 +14,7 @@ from nlp_id.postag import PosTag
 from nlp_id.stopword import StopWord
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt')
 from PIL import Image
 
 # Set Path
@@ -91,13 +92,13 @@ def textProcessing2(x):
 # ==========================================================================================================
 st.header('CSV Sentiment Analysis')
 with st.expander('Pastikan kolom yang akan dianalisa diberikan nama judul kolom dengan review'):
-    left_co, cent_co,last_co = st.columns(3)
-    with cent_co:
-        st.image(
-            image, 
-            caption='sample upload CSV',
-            width=500,
-        )
+    # left_co, cent_co,last_co = st.columns(3)
+    # with cent_co:
+    #     st.image(
+    #         image, 
+    #         caption='sample upload CSV',
+    #         width=500,
+    #     )
     upl = st.file_uploader('Upload CSV')
 
     if upl:

@@ -92,13 +92,13 @@ def textProcessing2(x):
     
 st.header('Excel Sentiment Analysis')
 with st.expander('Pastikan kolom yang akan dianalisa diberikan nama judul kolom dengan review'):
-    left_co, cent_co,last_co = st.columns(3)
-    with cent_co:
-        st.image(
-            image, 
-            caption='sample upload Excel',
-            width=500,
-        )
+    # left_co, cent_co,last_co = st.columns(3)
+    # with cent_co:
+    #     st.image(
+    #         image, 
+    #         caption='sample upload Excel',
+    #         width=500,
+    #     )
         
     upl = st.file_uploader('Upload Excel File')
 
