@@ -14,6 +14,7 @@ from nlp_id.postag import PosTag
 from nlp_id.stopword import StopWord
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt')
 from io import BytesIO
 import xlsxwriter
 from PIL import Image
