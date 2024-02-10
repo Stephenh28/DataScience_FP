@@ -10,3 +10,4 @@ typing
 nlp_id
 pillow
 xlsxwriter
+openpyxl
