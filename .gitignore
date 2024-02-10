@@ -1,0 +1,8 @@
+#streamlit
+# .streamlit
+
+# venv
+'venv/'
+
+# folderenv
+env_streamlit/
