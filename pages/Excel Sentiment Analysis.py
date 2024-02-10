@@ -22,7 +22,7 @@ from PIL import Image
 # Set Path
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir /"styles"/"main.css"
-sample_img = current_dir/"styles"/"sample.PNG"
+# sample_img = current_dir/"styles"/"sample.PNG"
 
 # set_page_config adalah metode yang digunakan untuk mengubah setup halaman
 st.set_page_config(
@@ -38,7 +38,7 @@ with open(css_file) as f:
 # ==========================================================================================================
 translator = Translator()
 stopword_id = stopwords.words('indonesian')
-image = Image.open(sample_img)
+# image = Image.open(sample_img)
 
 # ==========================================================================================================
 # template CSV Sentiment Analysis
