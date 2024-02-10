@@ -21,7 +21,7 @@ from PIL import Image
 # Set Path
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir /"styles"/"main.css"
-sample_img = current_dir/"sample.PNG"
+sample_img = current_dir/"styles"/"sample.PNG"
 
 # set_page_config adalah metode yang digunakan untuk mengubah setup halaman
 st.set_page_config(

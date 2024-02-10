@@ -13,6 +13,7 @@ from nlp_id.tokenizer import Tokenizer, PhraseTokenizer
 from nlp_id.postag import PosTag
 from nlp_id.stopword import StopWord
 import nltk
+nltk.download('stopwords')
 
 # Set Path
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
